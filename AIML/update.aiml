@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0"> 
+
+<category>
+<pattern>WHAT IS YOUR NATION</pattern>
+<template><bot name="country"/></template>
+</category>
+
+<category>
+<pattern>WHICH COUNTRY _ YOU *</pattern>
+<template><bot name="country"/></template>
+</category>
+
+<category>
+<pattern>WHICH NATION _ YOU *</pattern>
+<template><bot name="country"/></template>
+</category>
+
+<category>
+<pattern>ZBERT</pattern>
+<template>"PASSWORD ZBERT"</template>
+</category>
+
+</aiml>
